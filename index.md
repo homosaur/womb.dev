@@ -1,3 +1,7 @@
+---
+layout: shell.njk
+---
+
 # Hi buddy
 
-Hello
+Hello buddy
