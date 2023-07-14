@@ -1,5 +1,6 @@
 ---
 layout: shell.njk
+title: -=*|\\ h o m e //|*=-
 ---
 
 # womb.dev
