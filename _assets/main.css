@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Redacted&display=swap');
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
+    display: flex;
+    align-items: stretch;
+
     font-family: 'Redacted', sans-serif;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(117,121,9,1) 59%, rgba(167,6,6,1) 63%, rgba(196,4,176,1) 66%, rgba(3,205,67,1) 71%, rgba(2,71,217,1) 76%, rgba(215,1,229,1) 82%, rgba(0,212,255,1) 100%);
-    width: 400px;
+    font-size: 2em;
+
+    margin: 0;
+    padding: 0;
+
+    min-height: 100%;
+    color: #00202e;
+}
+
+a:any-link {
+  color: #8a508f;
+  transition: 1s;
+}
+
+a:hover {
+  color: #ff6361;
+}
+
+div {
+  min-width: 3%;
+  min-height: 100%;
+}
+
+article, footer {
+  padding: 20px;
+}
+
+.content {
+  flex-grow: auto;
 }
